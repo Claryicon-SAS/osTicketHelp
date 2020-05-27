@@ -1,0 +1,13 @@
+{
+    "name": "osTicket/core-plugins",
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "https://pear.php.net"
+        }
+    ],
+    "require": {"jasig\/phpcas":"1.3.3","pear-pear.php.net\/Net_LDAP2":"*","ohmy\/auth":"*","aws\/aws-sdk-php":"2.*"},
+    "config": {
+        "vendor-dir": "lib"
+    }
+}
